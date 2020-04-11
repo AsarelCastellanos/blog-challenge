@@ -1,0 +1,11 @@
+.a-color {
+    color: white !important;
+}
+
+.title-color {
+    color: #3d9ef1 !important;
+}
+
+.a-color:hover {
+    color: #3d9ef1 !important;
+}

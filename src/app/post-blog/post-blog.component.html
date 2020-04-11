@@ -1,0 +1,20 @@
+<div class="container">
+    <form #blogForm="ngForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="formGroupExampleInput">Title</label>
+            <input type="text" class="form-control" [(ngModel)]="blog.title" [ngModelOptions]="{standalone: true}"
+                required>
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput2">Name</label>
+            <input type="text" class="form-control" [(ngModel)]="blog.name" [ngModelOptions]="{standalone: true}"
+                required>
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput2">Content</label>
+            <textarea type="text" class="form-control" [(ngModel)]="blog.content" [ngModelOptions]="{standalone: true}"
+                required></textarea>
+        </div>
+        <button type="submit" class="btn btn-color">Submit</button>
+    </form>
+</div>

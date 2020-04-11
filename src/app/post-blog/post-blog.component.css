@@ -1,0 +1,15 @@
+.container {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.btn-color {
+    background-color: #3d9ef1;
+    color: white;
+}
+
+.btn-color:hover {
+    background-color: white;
+    color: #3d9ef1;
+    border-color: #3d9ef1;
+}
